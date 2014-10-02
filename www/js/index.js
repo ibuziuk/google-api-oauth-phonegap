@@ -100,7 +100,7 @@ var googleapi = {
 var app = {
     client_id: '278466806752-c45kkkbhtoddp97vgdtrgk5obga4lhb1.apps.googleusercontent.com',
     client_secret: 'l216yGbVu9fAY-sbZ40qftLh',
-    redirect_uri: 'http://localhost',
+    redirect_uri: 'http://localhost', // For Mac Os the port on which CordovaSim was started might be needed e.g. 'http://localhost:4400' 
     scope: 'https://www.googleapis.com/auth/userinfo.profile',
 
     init: function() {
